@@ -42,7 +42,7 @@
 </script>
 
 <main
-  class="min-h-screen bg-red-400 bg-cover bg-center bg-no-repeat bg-[image:var(--mobile-bg)] md:bg-[image:var(--desktop-bg)]"
+  class="min-h-screen bg-red-400 bg-cover bg-center bg-no-repeat bg-(image:--mobile-bg) md:bg-(image:--desktop-bg)"
   style="--mobile-bg: url('{mobileBg}'); --desktop-bg: url('{desktopBg}');"
 >
   <div
